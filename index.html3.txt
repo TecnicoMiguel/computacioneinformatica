@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miguel Elgueta Computación e Informática</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(180deg, #eef4ff, #f8fbff);
+      color: #1a1a1a;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px 14px 30px;
+    }
+
+    .box {
+      background: white;
+      border-radius: 20px;
+      padding: 28px 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 800;
+    }
+
+    p {
+      margin: 12px auto 0;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 22px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 14px 18px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 600;
+      color: white;
+      min-width: 160px;
+      text-align: center;
+      transition: 0.15s;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      opacity: 0.95;
+    }
+
+    .wsp { background: #25D366; }
+    .fb { background: #1877f2; }
+    .ig {
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+    }
+
+    .embed {
+      margin-top: 22px;
+      overflow-x: auto;
+    }
+
+    iframe {
+      border: none;
+      border-radius: 12px;
+      display: block;
+      margin: auto;
+    }
+
+    @media (max-width: 600px) {
+      .buttons {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="box">
+
+    <h1>Miguel Elgueta<br>Computación e Informática</h1>
+
+    <p>
+      Soporte, mantención y reparación de computadores.<br>
+      Revisa opiniones reales y contáctame directamente.
+    </p>
+
+    <div class="buttons">
+      <a class="btn wsp" href="https://wa.me/56953111680" target="_blank">
+        WhatsApp
+      </a>
+
+      <a class="btn fb" href="https://www.facebook.com/tecnicomiguelelgueta" target="_blank">
+        Facebook
+      </a>
+
+      <a class="btn ig" href="https://instagram.com/_tecnico_miguel" target="_blank">
+        Instagram
+      </a>
+
+      <a class="btn fb" 
+         href="https://www.facebook.com/tecnicomiguelelgueta/posts/pfbid0fZ3v6x4ThQj1tYQ24GkTH21TZx8iRmuXaGRgezSsTDAfFD4JdqeUNJkmDffrwp7pl" 
+         target="_blank">
+         Ver opiniones reales de clientes 👇
+      </a>
+    </div>
+
+    <div class="embed">
+      <iframe
+        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftecnicomiguelelgueta%2Fposts%2Fpfbid0fZ3v6x4ThQj1tYQ24GkTH21TZx8iRmuXaGRgezSsTDAfFD4JdqeUNJkmDffrwp7pl&show_text=true&width=500"
+        width="500"
+        height="720">
+      </iframe>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
